@@ -6,7 +6,7 @@ c.NotebookApp.open_browser = False
 # No token. Always use jupyter over ssh tunnel
 # required for vs  studio
 c.NotebookApp.token = '0bd62b549325a980c439c29ff32e848fb22baab98d5f1149483a457d931981bc'
-c.NotebookApp.notebook_dir = '/notebooks'
+c.NotebookApp.notebook_dir = '/src'
 # Allow to run Jupyter from root user inside Docker container
 c.NotebookApp.allow_root = True
 c.NotebookApp.allow_origin = '*'

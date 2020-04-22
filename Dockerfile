@@ -10,7 +10,7 @@ RUN apt-get update \
 
 #    && pip3 install ptvsd \
 COPY requirements.txt /tmp/
-RUN ["mkdir", "notebooks"]
+RUN ["mkdir", "src"]
 RUN pip3 install --requirement /tmp/requirements.txt
 COPY . /tmp/
 COPY requirements.txt /tmp/
@@ -21,7 +21,6 @@ COPY run_jupyter.sh /
 EXPOSE 8888
 
 # Store notebooks in this mounted directory
-VOLUME /notebooks
+VOLUME /src
 
 CMD ["/run_jupyter.sh"]
-#CMD ["python", "src/start.py"]
