@@ -1,5 +1,5 @@
 # Welcome !
-enjoy the talk
+enjoy the talk :smile:
 
 ## Introduction
 
