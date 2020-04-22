@@ -1,5 +1,5 @@
 # Welcome !
-enjoyed the lecture
+enjoy the talk
 
 ## Introduction
 
