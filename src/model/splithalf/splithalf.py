@@ -7,7 +7,7 @@ def simple_split_half(data: pd.DataFrame, split: float = 0.5, seed: int = 197004
 
     n_sample = np.round((1-split) * len(data)).astype(int)
 
-    # np.random.seed(seed)
+    np.random.seed(seed)
     h1_idx = np.random.choice(data.index.values,
                               size=n_sample, replace=False)
 
