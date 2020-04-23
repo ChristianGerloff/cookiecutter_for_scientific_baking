@@ -5,7 +5,7 @@ enjoy the talk :smile:
 
 The talk will focus on data science practices, including version control, reproducible code examples, testing and the influence of the technical environment
 
-## Useage
+## Usage
 ### Jupyter file
 you can use the jupyter file in `src/notebooks/`
 
